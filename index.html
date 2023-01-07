@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title></title>
+    <style>
+     h1 {
+      font-family: 'Airfool Regular'; /* Гарнитура текста */ 
+      font-size: 230%; /* Размер шрифта в процентах */ 
+     } 
+     p {
+      font-family: 'Airfool Regular'; 
+      font-size: 11pt; /* Размер шрифта в пунктах */ 
+     }
+    </style>
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="\audio\Sound_58279500 1644071553.mp3">
+    </audio>
+    <header>
+        <div class="container">
+            <h1>МАТЕМАТИКА</h1>
+            <ul>
+                <li class="current"><a href="index.html">сложение</a></li>
+                <li><a href="subtract.html">вычитание</a></li>
+                <li><a href="multiply.html">умножение</a></li>
+                <li><a href="divide.html">деление</a></li>
+            </ul>
+        </div>
+    
+        <div class="wrapper">
+            <div class="equation">
+                <h1 id="num1" style="color: #fe4a49;">1</h1>
+                <h1 style="color: #18eb22;">+</h1>
+                <h1 id="num2" style="color: #fbff29">1</h1>
+                <h1 style="color: #fe4a49">=</h1>
+                <h1 style="color: gray">?</h1>
+            </div>
+            <div class="answer-options">
+                <h1 id="option1">1</h1>
+                <h1 id="option2">2</h1>
+                <h1 id="option3">3</h1>
+            </div>
+        </div>
+    </header>
+    <script src="scripts/add.js"></script>
+</body>
+</html>
