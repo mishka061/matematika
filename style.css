@@ -13,10 +13,14 @@ body{
     padding: 60px;
     overflow: hidden;
     background-color: #ec4242;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .container h1{
     float: left;
-    
     color: rgb(255, 255, 255);
     font-size: 70px;
     overflow: hidden;
@@ -52,7 +56,7 @@ body{
 .equation{
     font-size: 80px;
     background-color: rgb(240, 234, 234);
-    border-radius: 3px;
+    border-radius: 20px;
     text-align: center;
     padding-top: 15%;
     margin-top: 10px;
@@ -71,18 +75,18 @@ body{
 .answer-options h1{
     cursor: pointer;
     color: whitesmoke;
-    border-radius: 3px;
+    border-radius: 20px;
     margin-top: 10px;
     text-align: center;
     width: 100%;
 }
 #option1{
-    background-color: #fe4a49;
+    background-color: hsl(175, 94%, 49%);
     transition: 1s;
     overflow: hidden;
 }
 #option1:hover{
-    color: #fe4a49;
+    color: #f8491e;
     background-color: white;
 }
 #option2{
@@ -91,7 +95,7 @@ body{
     overflow: hidden;
 }
 #option2:hover{
-    color: #18eb22;
+    color:#fbff29 ;
     background-color: white;
 }
 #option3{
@@ -100,6 +104,6 @@ body{
     overflow: hidden;
 }
 #option3:hover{
-    color: #fbff29;
+    color: #18eb22;
     background-color: white;
 }

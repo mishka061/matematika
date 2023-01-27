@@ -1,0 +1,119 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GrazieInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="%}" />
+            <item index="1" class="java.lang.String" itemvalue="css" />
+            <item index="2" class="java.lang.String" itemvalue="static" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="LossyEncoding" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Open Files" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="PyBroadExceptionInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <scope name="Project Files" level="WEAK WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="six" />
+            <item index="1" class="java.lang.String" itemvalue="pytest" />
+            <item index="2" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="3" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="4" class="java.lang.String" itemvalue="atomicwrites" />
+            <item index="5" class="java.lang.String" itemvalue="pluggy" />
+            <item index="6" class="java.lang.String" itemvalue="pytest-pythonpath" />
+            <item index="7" class="java.lang.String" itemvalue="py" />
+            <item index="8" class="java.lang.String" itemvalue="packaging" />
+            <item index="9" class="java.lang.String" itemvalue="attrs" />
+            <item index="10" class="java.lang.String" itemvalue="colorama" />
+            <item index="11" class="java.lang.String" itemvalue="Django" />
+            <item index="12" class="java.lang.String" itemvalue="tomli" />
+            <item index="13" class="java.lang.String" itemvalue="pytz" />
+            <item index="14" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="15" class="java.lang.String" itemvalue="webcolors" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E111" />
+          <option value="W292" />
+          <option value="E114" />
+          <option value="E261" />
+          <option value="E302" />
+          <option value="E501" />
+          <option value="E305" />
+          <option value="E128" />
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+          <option value="getattr" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="true" level="TYPO" enabled_by_default="true">
+      <scope name="Project Files" level="TYPO" enabled="false" />
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="views" />
+          <option value="blog.views.index" />
+          <option value="blog.views.posts_num" />
+          <option value="blog.views.posts" />
+          <option value="yatube.posts.models.Post.objects" />
+          <option value="yatube.posts.views.list_filter" />
+          <option value="yatube.core.docstring.inversed" />
+          <option value="yatube.core.docstring.invertaser" />
+          <option value="yatube.core.docstring.*" />
+          <option value="todo.deals.tests.test_models.deals" />
+          <option value="yatube.posts.tests.test_views.post" />
+          <option value="posts.views.is_edit" />
+          <option value="posts.views.author" />
+          <option value="posts.views.*" />
+          <option value="homework.message" />
+          <option value="homework.homewokrs" />
+          <option value="CHOICES" />
+          <option value="yatube_api.api.serializers.models" />
+          <option value="kittygram2plus.urls.drf_yasg" />
+          <option value="kittygram2plus.urls.urlpatterns" />
+          <option value="list.__sub__" />
+          <option value="shop.myshop.models.Product.id" />
+          <option value="shop.landing.urls.landing" />
+          <option value="shop.myshop.views.cart" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="XmlInvalidId" enabled="true" level="TYPO" enabled_by_default="true" />
+  </profile>
+</component>
